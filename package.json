@@ -27,7 +27,8 @@
     "relative-time": "1.0.0",
     "strip-hex-prefix": "1.0.0",
 
-    "core-js": "^3.6.5"
+    "core-js": "^3.6.5",
+    "@msgpack/msgpack": "^1.11.0"
   },
   "devDependencies": {
     "mocha": "8.2.1"
