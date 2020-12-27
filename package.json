@@ -25,7 +25,9 @@
     "globalize": "1.6.0",
     "node-fetch": "2.6.1",
     "relative-time": "1.0.0",
-    "strip-hex-prefix": "1.0.0"
+    "strip-hex-prefix": "1.0.0",
+
+    "core-js": "^3.6.5"
   },
   "devDependencies": {
     "mocha": "8.2.1"
