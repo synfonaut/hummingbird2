@@ -1,0 +1,45 @@
+{
+  "name": "bmapjs",
+  "version": "0.2.4",
+  "description": "A parser for BOB & MOM formatted transactions comprised of B, MAP, METANET and AIP/HAIP OP_RETURN protocols together in a single tx.",
+  "main": "bmap_node.js",
+  "scripts": {
+    "build": "browserify -p tinyify bmap_node.js -o dist/bmap_node.js -t -t [ babelify --presets [ @babel/preset-env ] ]",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "yarn build && ws"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohenaz/bmap.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "bmap",
+    "magic",
+    "attribute",
+    "protocol",
+    "bsv"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.0",
+    "tinyify": "^2.5.2",
+    "prettier": "latest"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "author": "Satchmo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rohenaz/bmap/issues"
+  },
+  "homepage": "https://github.com/rohenaz/bmap#readme",
+  "dependencies": {
+    "@msgpack/msgpack": "^1.11.0"
+  }
+}

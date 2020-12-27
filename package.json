@@ -1,0 +1,34 @@
+{
+  "name": "hummingbird2",
+  "version": "2.0.0",
+  "description": "A Bitcoin Application Framework",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "DEBUG=hummingbird:* ./node_modules/.bin/mocha -r esm tests/*.js"
+  },
+  "keywords": [
+    "bitcoin"
+  ],
+  "author": "synfonaut",
+  "license": "MIT",
+  "dependencies": {
+    "@libitx/shapeshifter.js": "file:@libitx/shapeshifter.js",
+    "@matterpool/boostpow-js": "1.2.31",
+    "bsv2": "npm:bsv@2.0.3",
+    "bsv": "npm:bsv@1.5.4",
+    "cldr-data": "36.0.0",
+    "debug": "4.3.1",
+    "event-stream": "4.0.1",
+    "eventsource": "1.0.7",
+    "globalize": "1.6.0",
+    "node-fetch": "2.6.1",
+    "relative-time": "1.0.0",
+    "strip-hex-prefix": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "8.2.1"
+  }
+}
