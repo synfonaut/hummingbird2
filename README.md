@@ -1,6 +1,7 @@
 # Hummingbird2
-
 > A Bitcoin Application Framework
+
+![logo](./logo.png)
 
 Hummingbird2 is a light wrapper around the best tools in Bitcoin:
 
@@ -14,8 +15,6 @@ Hummingbird2 is a light wrapper around the best tools in Bitcoin:
 * boostpow
 * twetch
 * bitsv
-
-
 
 Release is alpha, better documentation coming. Read the source for now.
 
