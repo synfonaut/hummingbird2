@@ -15,7 +15,6 @@
   "author": "synfonaut",
   "license": "MIT",
   "dependencies": {
-    "@libitx/shapeshifter.js": "file:@libitx/shapeshifter.js",
     "@matterpool/boostpow-js": "1.2.31",
     "bsv2": "npm:bsv@2.0.3",
     "bsv": "npm:bsv@1.5.4",
