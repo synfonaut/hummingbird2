@@ -21,5 +21,6 @@ module.exports = {
     "shapeshifter": require("./shapeshifter"),
 
     "crypto": require("./crypto"),
+    "price": require("./price"),
     "helpers": require("./helpers"),
 };

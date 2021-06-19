@@ -16,19 +16,21 @@
   "license": "MIT",
   "dependencies": {
     "@matterpool/boostpow-js": "1.2.31",
-    "bsv2": "npm:bsv@2.0.3",
+    "@msgpack/msgpack": "^1.11.0",
+    "bent": "7.3.12",
     "bsv": "npm:bsv@1.5.4",
+    "bsv2": "npm:bsv@2.0.3",
     "cldr-data": "36.0.0",
+    "core-js": "^3.6.5",
     "debug": "4.3.1",
+    "esm": "3.2.25",
     "event-stream": "4.0.1",
     "eventsource": "1.0.7",
     "globalize": "1.6.0",
     "node-fetch": "2.6.1",
+    "p-memoize": "4.0.1",
     "relative-time": "1.0.0",
-    "strip-hex-prefix": "1.0.0",
-
-    "core-js": "^3.6.5",
-    "@msgpack/msgpack": "^1.11.0"
+    "strip-hex-prefix": "1.0.0"
   },
   "devDependencies": {
     "mocha": "8.2.1"
